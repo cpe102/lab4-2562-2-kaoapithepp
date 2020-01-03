@@ -10,7 +10,7 @@ float formuIn(float x){
 
 int main(){
     int a;
-    cout << "Enter x: ";
+    cout << "Enter x: "; 
     cin >> a;
     cout << "Result y = " << formuIn(a) << endl;
     return 0;
