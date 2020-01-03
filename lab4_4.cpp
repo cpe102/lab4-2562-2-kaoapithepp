@@ -3,10 +3,10 @@
 using namespace std;
 
 void printString1(string s, int N){
-	int count = 0;
-	while(count < N){
+	int count = 9;
+	while(count > N){
 		cout << s;
-		count++;
+		count--;
 	}
 }
 
@@ -27,7 +27,9 @@ int main()
 {
 	int count = 0;
 	while(count < 10){
-		//Edit code here using printString1() and printString2()
+		printString1("5",count);
+		printString2("6","9",count);
+		cout << endl;
 		
 		count++;
 	}
